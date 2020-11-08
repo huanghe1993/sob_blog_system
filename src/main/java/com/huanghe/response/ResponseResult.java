@@ -1,6 +1,5 @@
 package com.huanghe.response;
 
-import javafx.beans.binding.ObjectExpression;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -56,7 +55,7 @@ public class ResponseResult {
         return result;
     }
 
-    public ResponseResult setData(Object data){
+    public ResponseResult setData(Object data) {
         this.data = data;
         return this;
     }
