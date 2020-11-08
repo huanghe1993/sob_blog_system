@@ -1,15 +1,15 @@
 server:
-  port: 8080
+  port: 8083
 spring:
   application:
     name: sob-blog
   datasource:
-    url: jdbc:mysql://localhost:3309/ssm?characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3309/sob_blog_system?characterEncoding=utf-8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
 
 
 mybatis:
-  typeAliasesPackage: com.ssm.entity
+  typeAliasesPackage: com.huanghe.pojo
   mapperLocations:  classpath:mapper/*Mapper.xml
