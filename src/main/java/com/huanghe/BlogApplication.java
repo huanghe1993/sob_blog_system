@@ -15,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan(basePackages = {"com.huanghe.dao"})
 public class BlogApplication {
     public static void main(String[] args) {
+        log.info("开始启动率");
         SpringApplication.run(BlogApplication.class, args);
     }
 

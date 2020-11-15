@@ -9,7 +9,6 @@ import lombok.Setter;
  * @date 2020/11/8 11:04
  * @description
  */
-@Setter
 @Getter
 public enum ResponseState {
 

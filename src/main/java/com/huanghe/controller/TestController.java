@@ -16,13 +16,13 @@ public class TestController {
 
     @GetMapping(value = "/hello-world")
     public ResponseResult helloWorld() {
-        System.out.println("hello world");
+        log.info("Log hello world Test");
         return ResponseResult.success("hello world blog");
     }
 
     @GetMapping(value = "/test-response")
     public ResponseResult testResponse() {
-        System.out.println("hello world");
+        log.info("test-response");
         return ResponseResult.success().setData("hello world");
     }
 }
